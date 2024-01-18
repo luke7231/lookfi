@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.section`
     height: 100%;
     width: 100%;
-    background-color: rgb(241 245 249);
+    // background-color: rgb(241 245 249);
 `;
 const Header = styled.div`
     width: 100%;
@@ -25,13 +25,16 @@ const Left = styled.div`
 const Logo = styled.div`
     width: 1.75rem;
     height: 1.75rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
 `;
 const Layout = ({ children }: { children: React.ReactNode }) => {
     return (
         <Wrapper>
             <Header>
                 <Left>
-                    <Logo />
+                    <Logo>Lookfi</Logo>
                 </Left>
             </Header>
             {children}
