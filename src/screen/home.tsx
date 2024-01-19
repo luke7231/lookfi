@@ -19,11 +19,9 @@ const Title = styled.div`
     margin-top: 20px;
     margin-left: 2rem;
     font-size: 2rem;
-    // color: #fff;
     font-weight: 800;
 `;
 const GridWrap = styled.div`
-    // background: #111;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
